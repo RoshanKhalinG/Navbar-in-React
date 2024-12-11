@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: #ced8ff;
+  transition: 0.5s;
+}
+
+.container.dark{
+  background: #222;
+}
+
+h1 {
+    background-color: deeppink;
+    color: white;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-container {
+    text-align: center;
+    margin: 50px 0; /* Adds spacing below the input field */
+  }
+  
+  div {
+    text-align: center;
+  }
+   
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    height: auto; /* Adjust height based on content */
+    width: 30%; /* Limit width to avoid stretching */
+    max-width: 600px; /* Max width for responsiveness */
+    background-color: #ffffff; /* White background for clean look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border-radius: 20px; /* Smooth rounded corners */
+    padding: 30px; /* Space inside the container */
+    margin: 40px auto; /* Center the container and add spacing */
+  }
+  
+  .main{
+    padding-top: 100px;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  .choosefile{
+    color: #e61e1e;
+  }
+
+
+
+  .footer {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer.light {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .footer.dark {
+    background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
+    color: white;
+  }
+  
+.footer p {
+  font-size: 14px;
+  margin-top: 10px;
+}
